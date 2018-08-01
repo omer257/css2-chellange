@@ -1,0 +1,92 @@
+/* top container color: 	#B52525 */
+/* bottom container color: #A02021 */
+/* text and password input color: #E7E8E8 */
+
+/* .largeContainer {
+  height: 650px;
+  width: 500px;
+
+} */
+
+.topContainer {
+  background-color: #B52525 ;
+  height: 353px;
+  width: 430px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 12px 35px 35px 35px;
+
+}
+
+.bottomContainer {
+  height: 180px;
+  width: 430px;
+  background-color: #A02021;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: 0px 10px 8px lightgrey;
+  padding: 35px;
+}
+
+p {
+  text-align: center;
+  font-size: 25px;
+  color: #E7E8E8;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+input {
+  display: block;
+  width: 425px;
+  margin-bottom: 13px;
+  height: 45px;
+  border-radius: 5px;
+  padding-left: 5px; 
+}
+
+#nameInput {
+  border: 2px solid lightskyblue;
+  box-shadow: inset 3px 3px 8px lightgrey;
+}
+
+#passwordInput {
+  background-color: #E7E8E8;
+  color: black;
+  font-size:25px; 
+}
+
+::placeholder {
+  color: black;
+}
+
+#loginButton {
+  margin-top: 15px;
+  width: 240px;
+  margin-left: 95px;
+  height: 45px;
+  border-radius: 20px;
+  border: none;
+  background-color: beige;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#openAccountButton {
+  margin-top: 17px;
+  width: 430px;
+  height: 100px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 2px 6px black;
+  font-size: 25px;
+  padding: 0 25px 0 25px;
+}
+
+
+#logoPhoto {
+  height: 40px;
+  float: right;
+  margin-right: 40px;
+  -webkit-box-reflect: below 8px -webkit-gradient(linear, right top, right bottom, from(transparent), color-stop(70%, transparent), to(rgba(255, 255, 255, 0.1)));
+}
